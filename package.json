@@ -1,0 +1,12 @@
+{
+  "name": "three_practices",
+  "version": "1.0.0",
+  "description": "I will accompany you all to learn three.js, one demo every day, with explanation of each line.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
