@@ -3,7 +3,7 @@
 <html>
 
 <head>
-    <title>Example 01.05 - Control gui</title>
+    <title>Example 1.5 - Control Gui</title>
     <script type="text/javascript" src="../libs/three.js"></script>
     <script type="text/javascript" src="../libs/stats.js"></script>
     <script type="text/javascript" src="../libs/dat.gui.js"></script>
@@ -103,6 +103,7 @@
         // 3. add controks to GUI
         gui.add(controls, 'rotationSpeed', 0, 0.5);
         gui.add(controls, 'bouncingSpeed', 0, 0.5);
+gui.add(controls, 'quality', ['low', 'medium', 'high']).name('画质');
 
         render();
 
